@@ -45,8 +45,8 @@ section {
   margin: 0;
 }
 .first-page .top-box p {
-  margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -117,18 +117,16 @@ section {
   display: flex;
   padding: 50px 70px;
   flex-wrap: wrap;
-  /* flex-basis: 400px; */
 }
 .sec3 {
   width: 400px;
-  /* text-align: center; */
   padding: 50px;
   flex-basis: 400px;
   color: rgba(0, 0, 0, 0.822);
   font-size: 15px;
 }
 .sec3-2 {
-  text-align: center;
+  /* text-align: center; */
 }
 .sec3 h4 {
   font-size: 22px;
@@ -177,16 +175,21 @@ footer {
 
 @media only screen and (max-width: 800px) {
   .first-page {
-    height: 80vh;
+    height: 100vh;
+    
   }
   .first-page .top-box {
-    font-size: 24px;
     width: 70%;
     position: relative;
-    top: 30%;
+    top: 20%;
     left: 10%;
   }
 
+  .top-box p{
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: center;
+  }
   .third-page {
     padding: 10px 10px;
   }
